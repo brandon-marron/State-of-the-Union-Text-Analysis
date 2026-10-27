@@ -27,6 +27,7 @@ The dataset includes 231 unique years. The years **1953** and **1961** each cont
 **Time period**: 1790 - 2021
 **Records**: 233
 **Presidents**: 43
+
 **Dataset Source**: [Dataset](https://github.com/brandon-marron/State-of-the-Union-Text-Analysis/blob/main/sotu.csv)
 
 # Tools Used
@@ -147,11 +148,11 @@ shiny::runApp()
 ### Alternatively 
 The application is published on **Posit Connect**. Please see the **Links** section to access the application. 
 
-[GitHub Links](https://github.com/brandon-marron/State-of-the-Union-Text-Analysis#links))
+[Links Section](https://github.com/brandon-marron/State-of-the-Union-Text-Analysis#links)
 
 **OR** 
 
-**Application Link**: [State of the Union Project)](https://brandonmarron-bigram-project.share.connect.posit.cloud/)
+**Application Link**: [State of the Union Project](https://brandonmarron-bigram-project.share.connect.posit.cloud/)
 
 # Limitations
 This project focuses mainly on word frequency and relationships between adjacent words. 
