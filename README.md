@@ -27,7 +27,7 @@ The dataset includes 231 unique years. The years **1953** and **1961** each cont
 **Time period**: 1790 - 2021
 **Records**: 233
 **Presidents**: 43
-**Dataset Source**: (LINK)
+**Dataset Source**: [Dataset](https://github.com/brandon-marron/State-of-the-Union-Text-Analysis/blob/main/sotu.csv)
 
 # Tools Used
 
@@ -58,7 +58,10 @@ This included:
 This allows comparison of word usage both within individual years and across the full period.
 
 # Application Features
+
 ## 1. Word Trend Analysis
+![Word Trend](https://github.com/brandon-marron/State-of-the-Union-Text-Analysis/blob/main/images/word-trend-war.png)
+
 The Word Trend Analysis allows users to select the following: 
 - A range of years
 - A word to analyze
@@ -85,7 +88,9 @@ The application also provides an interactive table containing:
 - Occurrences per 1,000 words
 - Total words for the year
 
+
 ## 2. Bigram Analysis
+![Bigram](https://github.com/brandon-marron/State-of-the-Union-Text-Analysis/blob/main/images/bigram-american-party.png)
 
 The Bigram Analysis examines which words most frequently appear immediately after a selected word.
 
@@ -114,13 +119,13 @@ These findings are descriptive. Word frequency indicates how often a term appear
 ```text
 state-of-the-union-text-analysis/
 │
-├── app.R
-├── sotu.csv
+├── images/
+|   ├── word-trend-war.png
+|    └── bigram-american-party.png
 ├── README.md
+├── app.R
 │
-└── images/
-    ├── word-trend-war.png
-    └── bigram-american-party.png
+└── sotu.csv
 ```
 
 # Running the Application
@@ -142,11 +147,11 @@ shiny::runApp()
 ### Alternatively 
 The application is published on **Posit Connect**. Please see the **Links** section to access the application. 
 
-[State of the Union Project](https://brandonmarron-bigram-project.share.connect.posit.cloud/)
+[GitHub Links](https://github.com/brandon-marron/State-of-the-Union-Text-Analysis#links))
 
 **OR** 
 
-**Application Link**: [California Traffic Crash Analysis (2021-2023)](https://brandonmarron-bigram-project.share.connect.posit.cloud/)
+**Application Link**: [State of the Union Project)](https://brandonmarron-bigram-project.share.connect.posit.cloud/)
 
 # Limitations
 This project focuses mainly on word frequency and relationships between adjacent words. 
@@ -159,10 +164,10 @@ Several limitations include:
 - Political parties and political language have changed throughout U.S. history, so comparing words across long periods of time should be interpreted carefully.
 
 # Links
-**Application Link**: [State of the Union Project](https://brandonmarron-bigram-project.share.connect.posit.cloud/))
+**Application Link**: [State of the Union Project](https://brandonmarron-bigram-project.share.connect.posit.cloud/)
 
-**Dataset Download Link**: [Dataset]()
+**Dataset Download Link**: [Dataset](https://github.com/brandon-marron/State-of-the-Union-Text-Analysis/blob/main/sotu.csv)
 
-**GitHub Repository**: [Repository]()
+**GitHub Repository**: [Repository](https://github.com/brandon-marron/State-of-the-Union-Text-Analysis.git)
 
 **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/brandonmarron)
